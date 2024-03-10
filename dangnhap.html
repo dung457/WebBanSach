@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangnhap</title>
+    <a href="dangnhap.css"></a>
+    
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header > div > img{
+width:150px;
+height:150px;
+}
+header > p {
+    text-transform:uppercase;
+    font-size: 3vw;
+    font-weight: bold;
+    color: darkgreen;
+    text-shadow: 3px 4px 5px yellow;
+    
+}
+nav {
+    background-color: green;
+}
+nav > ul   {
+    display:flex;
+    list-style: none;
+}
+nav > ul > li:nth-child(4) > a,
+nav > ul > li:nth-child(6) > a{
+    border-right:none;
+}
+nav > ul > li:nth-child(5) {
+    margin-left: auto;
+} 
+nav > ul > li{
+    min-width: 120px;
+    background-color: green ;
+    padding: 15px 20px;
+}
+nav > ul > li:hover > a{
+    color: red;
+    background-color: lightblue;
+    font-style:italic;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    font-weight:bold;
+    display:block;
+    border-right: 2px solid darkblue;
+}
+.banner > img {
+    width:100%;
+   
+}.form{
+    margin-left: 10px;
+}
+.tr{
+    width: 100;
+    border: 1;
+}
+body{
+    background-color: aqua;
+}
+img{
+    width: 150px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="images web/logowebsite.jpg" alt="Logo"></div>
+        <p>cỬA HÀNG SÁCH VIDUBOOK</p>
+       </header>
+       <nav>
+        <ul>
+            <li><a href="Trangchu.html">TRANG CHỦ</a></li>
+            <li><a href="sanpham.html">SẢN PHẨM</a></li>
+            <li><a href="theloai.html">THỂ LOẠI</a></li>
+            <li><a href="lienhe.html">LIÊN HỆ</a></li>
+            <li><a href="dangky.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#"><i class="fas fa-cart-plus"></i></a></li>
+        </ul>
+       </nav>
+       <div class="banner"><img src="images web/banner.jfif" alt="banner"></div>
+<div align="center">
+    <a href=""></a>
+      <h2 style="right: auto;"><form action="#" method="post" >ĐĂNG NHẬP</form></h2>
+       <table>
+        <tr><td> Tên đăng nhập: <input type="text">
+           <td>Mật khẩu: <input type="password">
+          <a href="Trangchu.html"> <button style="text-align: center;">Đăng nhập</button> </a> 
+        </td>
+         <td><a href="doimatkhau.html">Đổi mật khẩu </a></td> 
+        </br ></tr>
+        <img src="images web/logowebsite.jpg" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header > div > img{
+width:150px;
+height:150px;
+}
+header > p {
+    text-transform:uppercase;
+    font-size: 3vw;
+    font-weight: bold;
+    color: darkgreen;
+    text-shadow: 3px 4px 5px yellow;
+    
+}
+nav {
+    background-color: green;
+}
+nav > ul   {
+    display:flex;
+    list-style: none;
+}
+nav > ul > li:nth-child(4) > a,
+nav > ul > li:nth-child(6) > a{
+    border-right:none;
+}
+nav > ul > li:nth-child(5) {
+    margin-left: auto;
+} 
+nav > ul > li{
+    min-width: 120px;
+    background-color: green ;
+    padding: 15px 20px;
+}
+nav > ul > li:hover > a{
+    color: red;
+    background-color: lightblue;
+    font-style:italic;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    font-weight:bold;
+    display:block;
+    border-right: 2px solid darkblue;
+}
+.banner > img {
+    width:100%;
+   
+}
+.menu-con {
+    width: 80%;
+    margin:10px auto
+}
+.menu-con > ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu-con > ul > li > a  {
+    text-decoration: none;
+    color: blue;
+    font-size:22px;
+    font-weight: bold;
+    display:block;
+    min-width:150px;
+    padding: 15px 20px;
+    text-align:center;
+}
+.menu-con > ul > li > a:hover {
+    color:red;
+
+}
+.cacsanpham{
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+   flex-wrap: wrap;
+  /* justify-content: space-between;*/
+  gap:20px;
+}
+.sanpham {
+    width: 30%;
+    border:2px solid black;
+    border-radius:10px;
+    box-shadow: 4px 5px 5px black;
+}
+.sanpham > h4 {
+    text-align: center;
+    font-size:25px;
+    color:brown;
+    padding: 10px;
+}
+
+
+
+.sanpham > img {
+    width: 100%;
+    
+}
+.sanpham > h5 {
+    text-align: center;
+    font-size: 18px;
+    color:blue;padding: 6px;
+}
+.sanpham > p {
+ text-align: justify;
+ text-indent: 30px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1, h2 {
+  color: #0066cc;
+  text-align: center;
+}
+
+p, label {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+strong {
+  color: #009900;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #009900;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #007700;
+}
+footer {
+    color: white;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  footer > .top {
+    margin: 40px auto 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  footer > .top h6 {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  footer > .top p {
+    margin-top: 10px;
+  }
+  footer > .top > .col1 {
+    width: 40%;
+  }
+  footer > .top > .col1 img {
+    width: 200px;
+  }
+  footer > .top > .col2 {
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  footer > .top > .col2 input[type="text"],
+  footer > .top > .col2 input[type="email"] {
+    width: 100%;
+  
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  footer > .top > .col3 {
+    width: 50%;
+    padding-left: 100px;
+  }
+  footer > .top > .col3 > p > a {
+    color: aliceblue;
+  }
+  footer > .top > .col2 input[type="submit"] {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 7px;
+    position: relative;
+    left: 75%;
+    background-color: rgb(210, 210, 210);
+  }
+  footer > .bottom {
+    background-color: darkgray;
+  }
+  footer > .bottom > p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+  }
